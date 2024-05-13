@@ -1,8 +1,10 @@
 import React from "react";
-import Task1 from "./Task1/Task1";
+import Routing from "./Routing";
 
 function App() {
-  return <Task1 />;
+  return (
+   <Routing/>
+  );
 }
 
 export default App;
